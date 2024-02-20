@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply p-4;
+  }
+
+  h1 {
+    @apply text-2xl font-bold;
+  }
+
+  a {
+    @apply block w-fit text-blue-700 hover:text-red-800 underline;
+  }
+
+  button {
+    @apply py-2 px-4 bg-blue-500 hover:bg-blue-500/75 font-semibold uppercase rounded-sm;
+  }
+}
